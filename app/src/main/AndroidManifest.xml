@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".MOTHERDAY"
+            android:exported="false" />
+        <activity
+            android:name=".GRADUATION"
+            android:exported="false" />
+        <activity
+            android:name=".VALENTINE"
+            android:exported="false" />
+        <activity
+            android:name=".NEWBABY"
+            android:exported="false" />
+        <activity
+            android:name=".ANNIVERSARY"
+            android:exported="false" />
+        <activity
+            android:name=".BIRTHDAY"
+            android:exported="false" />
+        <activity
+            android:name=".THEMED"
+            android:exported="false" />
+        <activity
+            android:name=".Viewoders"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/actions" />
+
+        <activity
+            android:name=".ORDERCONFIRM"
+            android:exported="false" />
+        <activity
+            android:name=".SHIPPING"
+            android:exported="false" />
+        <activity
+            android:name=".CLASSIC"
+            android:exported="false" />
+        <activity
+            android:name=".CUPCAKEVIEW"
+            android:exported="false" />
+        <activity
+            android:name=".UserMenu"
+            android:exported="false" />
+        <activity
+            android:name=".AdminMenu"
+            android:exported="false" />
+        <activity
+            android:name=".Registration"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
